@@ -11,8 +11,8 @@ class AllMessage(models.Model):
 
     _inherit = "mail.message"
     allmessage = fields.Boolean(
-        'All Message', compute='_get_allmessage', search='_search_allmessage',
-        help='All Message')
+        'All Messages', compute='_get_allmessage', search='_search_allmessage',
+        help='All Messages')
 
     @api.multi
     def _get_allmessage(self):

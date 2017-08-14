@@ -1058,7 +1058,7 @@ function init () {
 
     add_channel({
         id: "all_message",
-        name: _lt("All Message"),
+        name: _lt("All Messages"),
         type: "static"
     });
 

@@ -5,7 +5,7 @@
         <t t-jquery=".o_mail_chat_sidebar div:nth-child(2)" t-operation="after">
               <div t-attf-class="o_mail_chat_channel_item #{(active_channel_id == 'all_message') ? 'o_active': ''}"
                  data-channel-id="all_message">
-                <span class="o_channel_name">  All Message </span>
+                <span class="o_channel_name">  All Messages </span>
             </div>
         </t>
     </t>
